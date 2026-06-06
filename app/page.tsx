@@ -10,7 +10,7 @@ export default function Home() {
         <button
           className="px-7 py-3 rounded-xl font-semibold text-white
   bg-linear-to-r from-zinc-950 via-slate-700 to-zinc-950
-  border border-zinc-800 cursor-pointer"
+  border border-zinc-800 cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:scale-[1.03]"
         >
           VISIT SCHOOL WEBSITE
         </button>
@@ -22,7 +22,7 @@ export default function Home() {
         <button
           className="px-7 py-3 rounded-xl font-semibold text-white
   bg-linear-to-r from-zinc-950 via-slate-700 to-zinc-950
-  border border-zinc-800 cursor-pointer"
+  border border-zinc-800 cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:scale-[1.03]"
         >
           VISIT GITHUB OF SCHOOL WEBSITE
         </button>
